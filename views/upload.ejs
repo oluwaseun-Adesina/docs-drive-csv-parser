@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express CSV Processing</title>
+</head>
+<body>
+    <h1>Upload CSV File</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <!-- <label class="form-label" for="customFile">Default file input example</label> -->
+        <input type="file" name="csvFile" accept=".csv" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
