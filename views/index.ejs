@@ -10,6 +10,9 @@
 <body>
     <div class="container">
         <h1>New List:</h1>
+        <form action="/download" method="get">
+            <button class="btn btn-primary mt-3">Download New Attachment</button>
+        </form>
         <ul class="list-group">
             <% new_list.forEach(item => { %>
                 <li class="list-group-item"><%= item %></li>
