@@ -1,11 +1,17 @@
-This is a simple express application that parses google docs file links to google drive links
-This is usefull when running mail merge with personalized attachement using mailmeteor, autocrat and google.
+# Google Docs to Google Drive Link Parser
 
-the personalized attachement is generated using  autocrat but autocrat provides the google docs links to the personalized files at the end of the generation process
+This is a simple Express application designed to parse Google Docs file links to Google Drive links. It is particularly useful when running mail merge operations with personalized attachments using tools like Mailmeteor, Autocrat, and Google Workspace.
 
-this links can now be saved to a csv file and parsed using this app
+Autocrat generates personalized attachments and provides Google Docs links to these files at the end of the generation process. This application allows you to save these links to a CSV file and parse them efficiently.
 
-<!--  -->
+## Usage
 
-To use this app, you need to visit the <a href="http:// google.com/> page and upload your csv file
-then download the csv file after the finish processing it.
+1. **Upload CSV File**: 
+   - Visit the [Google Docs to Google Drive Link Parser](https://docs-drive-csv-parser.onrender.com/) application page.
+   - Upload your CSV file containing Google Docs file links.
+
+2. **Process CSV File**: 
+   - The application will process the CSV file, parsing the Google Docs links to Google Drive links.
+
+3. **Download Processed CSV File**: 
+   - After the processing is complete, download the CSV file containing the parsed Google Drive links.
