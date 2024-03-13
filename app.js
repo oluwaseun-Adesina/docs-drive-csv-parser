@@ -3,9 +3,11 @@ const csv = require('csv-parser');
 const fs = require('fs');
 const path = require('path');
 const multer = require('multer');
+const dotenv = require('dotenv');
+dotenv.config()
 
 const app = express();
-const port = 3000;
+const port = 3000 || process.env.PORT;
 
 const front = "https://drive.google.com/file/d/";
 const back = "/view?usp=drive_link";
